@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/Mitchellmorrison/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '-U', 'ipykernel', '/var/folders/z4/9yf_rcd17cq6yv6jny72bscr0000gn/T/tmp-4971654w3Cfu99yn.log']' returned non-zero exit status 1.
